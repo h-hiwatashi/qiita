@@ -1,7 +1,8 @@
 ---
 title: immutableとmutableをFlutterとTypeScriptでまとめてみた
 tags:
-  - ""
+  - Flutter
+  - TypeScript
 private: false
 updated_at: ""
 id: null
@@ -57,7 +58,7 @@ immutable を実装するにはいくつか方法があります。
 1. @immutable アノテーション付ける。
 1. freezed パッケージを使う。
 
-この中で定番が freezed です。
+この中で一番簡単に実装できるのが freezed です。
 freezed のメリットはこちらの記事が詳しいです。
 https://zenn.dev/masarufuruya/articles/913beda4edf06d
 
